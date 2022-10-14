@@ -22,7 +22,6 @@ const Home = () => {
     const connectWithMetamask = useMetamask()
     const disconnect = useDisconnect()
     const isAdmin = address === process.env.NEXT_PUBLIC_ADMIN_WALLET_ADDRESS
-    const allowlist = useAllowlist()
     const fetcher = useFetcher()
     const nftDrop = useNFTDrop(process.env.NEXT_PUBLIC_NFT_DROP_ADDRESS)
 
